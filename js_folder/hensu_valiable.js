@@ -1,0 +1,20 @@
+let str = "Hello";
+let str2 = 'Single quotes are ok too';
+let phrase = `can embed ${str}`;
+alert(phrase);
+alert(`the result is ${1 + 2}`);
+alert("the result is ${1 + 2}");
+let isGreater = 4 > 1;
+alert(isGreater);
+let n = null;
+alert(n);
+let x;
+alert(x);
+typeof undefined
+alert(typeof 0);
+alert(typeof true);
+alert(typeof "foo");
+alert(typeof Symbol("id"));
+alert(typeof Math);
+alert(typeof null);
+alert(typeof alert);
